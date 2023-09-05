@@ -9,20 +9,6 @@
 
 
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Portfolio][portoflio-shield]][portfolio-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![Twitter][twitter-shield]][twitter-url]
-[![Telegram][telegram-shield]][issues-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -33,8 +19,6 @@
 
   <h3 align="center">Crypto Bot Tracker</h3>
 
-  <p align="center">
-    An awesome readme template to jumpstart your projects!
 </div>
 
 
@@ -56,7 +40,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#license">API</a></li>
+    <li><a href="#API">API</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -147,16 +131,3 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Solscan](https://public-api.solscan.io/docs/#/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[linkedin-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[linkedin-url]: https://www.linkedin.com/in/charly-muziotti/
-[twitter-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[twitter-url]: https://twitter.com/charlymcrypto
-[telegram-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[telegram-url]: https://t.me/charlym04

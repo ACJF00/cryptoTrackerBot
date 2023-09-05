@@ -16,8 +16,7 @@ module.exports = (bot => {
             let tokenDollarValue = []
             let BalanceDollarValue = []
             let tokenAddress = []
-    
-    console.log(tokens)
+
                 let token = tokens.forEach(function(token) {
                     tokenInfo.push(token.tokenInfo.symbol);
                     tokenDecimals.push(parseInt(token.balance * Math.pow(10, (-token.tokenInfo.decimals)))) 
@@ -38,9 +37,14 @@ module.exports = (bot => {
             if (tokenDollarValue[i] == undefined) {
                 void(0)
             } else {
+                const sorted = (a,b) => b-a || isNaN(a)-isNaN(b);
                 tokenBalanceAmount.push("<b>" + "<a href = \"https://etherscan.io/address/" + tokenAddress[i] + "\">" + tokenInfo[i] + "</a>" + "</b>" + ":" + " " + tokenDecimals[i] + " " + "(" + "<i>" + BalanceDollarValue[i].toFixed(2) + "</i>"  + "$" + ")")
             }               
         }
+
+
+
+console.log(BalanceDollarValue)
     
             let message = 
             `
